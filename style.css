@@ -1,5 +1,5 @@
 body {
-	font-size: 85%
+	font-size: 85%;
 }
 
 
@@ -7,7 +7,7 @@ h1 {
 	/*border-bottom-style: solid;
 	border-bottom-width : 3px;
 	padding-bottom : 20px;*/
-	width:710px;
+	width: auto;
 }
 
 .photo {
@@ -37,26 +37,51 @@ td {
 tr:nth-child(odd) {height:40px;}
 
 .lieu {
-	margin-bottom:50px;
+	margin-bottom:40px;
+	height: auto;
+}
+
+h3
+{
+	margin: 0;
+}
+
+#lieu-1
+{
+	height: auto;
+	margin-bottom: 20px;	
+}
+
+#lieu-2
+{
+	height: auto;
+	margin-bottom: 20px;	
+}
+
+#lieu-3
+{
+	height: auto;
+	margin-bottom: 20px;
 }
 
 .date {
-	position:relative;
+	display: inline-block;
+    font-weight: bold;
 	text-align:right;
-	top:-40px;
-	width:100%;
+	width: 100%;
+	position: relative;
+	top: -16px;
 }
 
 .detail {
-	position:relative;
-	top:-3em;
-	height:20px;
+	height: auto;
+	top:-34px;
 }
 
 #cnam {
 	position:relative;
 	top:-3em;
-	width:710px;
+	width: auto;
 }
 
 .competence {
