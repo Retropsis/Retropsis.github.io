@@ -1,0 +1,68 @@
+body {
+	font-size: 85%
+}
+
+
+h1 {
+	/*border-bottom-style: solid;
+	border-bottom-width : 3px;
+	padding-bottom : 20px;*/
+	width:710px;
+}
+
+.photo {
+	position:absolute;
+	left:620px;
+}
+
+h2 {
+	color : black; 
+	background-color : rgb(150,210,225);
+	margin-right : 85%;
+	width :100%;
+}
+
+/*tr:nth-child(even) {background-color : rgb(204,229,255);}
+tr:nth-child(odd) {background-color : white;}*/
+
+table {
+	width:90%;
+}
+
+td {
+	/*background-color : rgb(204,229,255);*/
+	width:320px;
+}
+
+tr:nth-child(odd) {height:40px;}
+
+.lieu {
+	margin-bottom:50px;
+}
+
+.date {
+	position:relative;
+	text-align:right;
+	top:-40px;
+	width:100%;
+}
+
+.detail {
+	position:relative;
+	top:-3em;
+	height:20px;
+}
+
+#cnam {
+	position:relative;
+	top:-3em;
+	width:710px;
+}
+
+.competence {
+	position:relative;
+	left:130px;
+}
+
+.langues {
+}
