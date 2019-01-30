@@ -44,6 +44,18 @@ body
 	image-rendering: -moz-crisp-edges;  
 }
 
+#announcer
+{
+	margin: auto;
+	margin-top: 25px;
+	height: 460px;
+	background: transparent url(../images/announcer.png) no-repeat center top;
+    background-size: 824px 328px;
+	background-position: 50% 50%;
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;  
+}
+
 #media
 {
 	margin: auto;
