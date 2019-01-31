@@ -56,7 +56,7 @@ body
 	float: right;
 	height: 128;
 	width: 128;
-	transform: rotate(25deg) scaleX(2.5) scaleY(2.5);  
+	transform: rotate(25deg) scaleX(2) scaleY(2);  
 	margin-right: 35%;
 	margin-top: 12%;
 }
