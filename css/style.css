@@ -46,14 +46,19 @@ body
 
 #announcer
 {
-	margin: auto;
-	margin-top: 25px;
-	height: 460px;
-	background: transparent url(../images/announcer.png) no-repeat center top;
-    background-size: 824px 328px;
-	background-position: 50% 50%;
+	/*margin: auto;*/
+	/*margin-top: 25px;*/
+	/*height: 460px;*/
+    /*background-size: 824px 328px;*/
+	/*background-position: 50% 50%;*/
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;  
+	float: right;
+	height: 128;
+	width: 128;
+	transform: rotate(25deg) scaleX(2.5) scaleY(2.5);  
+	margin-right: 35%;
+	margin-top: 12%;
 }
 
 #media
