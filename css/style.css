@@ -56,9 +56,9 @@ body
 	float: right;
 	height: 128;
 	width: 128;
-	transform: rotate(25deg) scaleX(2) scaleY(2);  
-	margin-right: 35%;
-	margin-top: 12%;
+	transform: rotate(25deg) scaleX(1.2) scaleY(1.2);  
+	margin-right: 30%;
+	margin-top: 15%;
 }
 
 #media
